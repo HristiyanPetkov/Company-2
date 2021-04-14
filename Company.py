@@ -54,6 +54,7 @@ def submit_data():
     email.delete(0, tk.END)
     
     company.add_employee(name1, email1)
+    company.print_all()
 
 submit_button = tk.Button(text='Add emplayee', command=submit_data)
 
@@ -61,5 +62,3 @@ name.pack()
 email.pack()
 submit_button.pack()
 window.mainloop()
-
-company.print_all()
