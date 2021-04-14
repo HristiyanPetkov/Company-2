@@ -55,6 +55,7 @@ def submit_data():
     
     company.add_employee(name1, email1)
     company.print_all()
+    print()
 
 submit_button = tk.Button(text='Add emplayee', command=submit_data)
 
